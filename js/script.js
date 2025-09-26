@@ -16,8 +16,8 @@ function initScrollBackground() {
         if (heroSection) {
             // Match the speed of other scroll effects - use same calculation as background
             const scrollProgress = Math.min(scrolled / window.innerHeight, 1);
-            // Growth range from 36.5% to 66%
-            const blackArea = 35.5 + (scrollProgress * 30.6); // Grows from 35.5% to 66.5%
+            // Growth range from 30% to 60%
+            const blackArea = 29.6 + (scrollProgress * 30); // Grows from 30% to 60%
             
             heroSection.style.setProperty('--black-area', `${blackArea}%`);
         }
