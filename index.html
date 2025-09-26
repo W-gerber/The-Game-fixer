@@ -381,7 +381,7 @@
                     </div>
                     <div class="booking-form">
                         <h3>Repair Request Form</h3>
-                        <form id="repairForm">
+                        <form id="repairForm" data-emailjs="true">
                             <div class="form-group">
                                 <label for="deviceType">Device Type</label>
                                 <input type="text" id="deviceType" name="deviceType" placeholder="e.g., Xbox Controller, PlayStation Controller, Gaming Keyboard..." required>
@@ -452,6 +452,10 @@
 
     <!-- JavaScript -->
     <script src="js/script.js"></script>
+    <!-- EmailJS SDK -->
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js" defer></script>
+    <!-- Email integration logic -->
+    <script src="js/email.js" defer></script>
     
     <!-- Emergency loading screen removal -->
     <script>

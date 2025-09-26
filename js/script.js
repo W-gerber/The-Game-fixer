@@ -911,32 +911,28 @@ class FormHandler {
             this.showNotification('Please correct the errors above', 'error');
             return;
         }
-        
-        // Show loading state
+
+        // If EmailJS integration is present, hand off (its listener will also fire)
+        if (window.emailjs && window.GameFixerEmail) {
+            // Do nothing here; email.js will manage sending + button state
+            return;
+        }
+
+        // Fallback: legacy simulated submission (when EmailJS not loaded)
         const submitButton = this.form.querySelector('button[type="submit"]');
         const originalText = submitButton.innerHTML;
         submitButton.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Submitting...';
         submitButton.disabled = true;
-        
-        // Simulate form submission (replace with actual API call)
+
         setTimeout(() => {
-            console.log('Form submitted:', data);
-            
-            // Reset form
+            console.log('Form submitted (local simulation, no EmailJS):', data);
             this.form.reset();
-            
-            // Restore button
             submitButton.innerHTML = originalText;
             submitButton.disabled = false;
-            
-            // Show success message
             this.showNotification('Repair request submitted successfully! We\'ll contact you within 24 hours.', 'success');
-            
-            // Generate repair ticket number
             const ticketNumber = 'GF' + Date.now().toString().slice(-6);
             this.showNotification(`Your repair ticket number is: ${ticketNumber}`, 'info');
-            
-        }, 2000);
+        }, 1200);
     }
     
     showNotification(message, type = 'info') {
@@ -1124,9 +1120,10 @@ document.addEventListener('DOMContentLoaded', () => {
     
     // Initialize all components
     try {
-        new Navigation();
-        new ScrollBasedBackground();
-        new FormHandler();
+    new Navigation();
+    new ScrollBasedBackground();
+    // Expose form handler instance globally so email.js can reuse notifications
+    window.FormHandlerInstance = new FormHandler();
         new ScrollAnimations();
         new PerformanceOptimizer();
         
