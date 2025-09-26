@@ -26,8 +26,7 @@ Layer	Tools & Frameworks
 Frontend	React, TypeScript, Tailwind CSS
 Deployment	Vercel
 Design	Figma + custom components
-📸 Screenshots
-<p align="center"> <img src="assets/screenshots/home.png" alt="Homepage" width="80%"/><br/> <i>Homepage – introducing The Game Fixer</i> </p> <p align="center"> <img src="assets/screenshots/services.png" alt="Services" width="80%"/><br/> <i>Services section – highlighting what the business offers</i> </p>
+
 🌐 Live Demo
 
 👉 Visit the live site here: The Game Fixer Website
