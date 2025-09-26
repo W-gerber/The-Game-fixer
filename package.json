@@ -5,8 +5,7 @@
 	"private": true,
 	"scripts": {
 		"start": "python -m http.server 3000",
-		"dev": "python -m http.server 3000",
-		"build": "echo 'Static site - no build step'"
+		"dev": "python -m http.server 3000"
 	},
 	"license": "UNLICENSED"
 }
