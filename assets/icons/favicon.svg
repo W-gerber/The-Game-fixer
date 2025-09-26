@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Favicon SVG for The Game Fixer -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .blk{fill:#000}
+      .red{fill:#ff0000}
+      .wht{fill:#fff}
+      .fnt{font-family:'Poppins',Arial,Helvetica,sans-serif;font-weight:800;letter-spacing:-2px}
+    </style>
+  </defs>
+  <!-- Top red bar -->
+  <rect class="red" x="32" y="40" rx="16" width="448" height="136"/>
+  <!-- Middle black bar -->
+  <rect class="blk" x="16" y="176" rx="24" width="480" height="176"/>
+  <!-- Bottom red outlined bar (open fill for lighter look like reference) -->
+  <rect x="32" y="352" rx="16" width="448" height="120" fill="none" stroke="#ff0000" stroke-width="16"/>
+  <!-- Text layers -->
+  <text x="256" y="138" font-size="120" class="fnt wht" text-anchor="middle">The</text>
+  <text x="256" y="308" font-size="120" class="fnt wht" text-anchor="middle">Game</text>
+  <text x="256" y="438" font-size="118" class="fnt red" text-anchor="middle">Fixer</text>
+</svg>
