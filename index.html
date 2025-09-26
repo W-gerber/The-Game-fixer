@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Game Fixer - Professional Gaming Hardware Repairs</title>
+    <meta name="description" content="Professional Xbox controller repairs and gaming hardware services. Expert technicians, fast turnaround, local service.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="game-fixer-logo.png">
+    <link rel="shortcut icon" type="image/png" href="game-fixer-logo.png">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loadingScreen" class="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <span class="loading-title-the">The</span>
+                <span class="loading-title-game">Game</span>
+                <span class="loading-title-fixer">Fixer</span>
+            </div>
+            <div class="loading-spinner">
+                <div class="spinner"></div>
+            </div>
+            <p class="loading-text">Initializing Repair Systems...</p>
+        </div>
+    </div>
+    
+    <!-- Main Content -->
+    <main class="main-content">
+    <!-- Animated Top Right Navigation -->
+    <nav class="top-right-nav">
+        <div class="nav-container-top">
+            <div class="nav-item-top active" data-section="home">
+                <span class="icon">
+                    <i class="fas fa-home"></i>
+                </span>
+                <span class="text">Home</span>
+            </div>
+            <div class="nav-item-top" data-section="services">
+                <span class="icon">
+                    <i class="fas fa-tools"></i>
+                </span>
+                <span class="text">Services</span>
+            </div>
+            <div class="nav-item-top" data-section="pricing">
+                <span class="icon">
+                    <i class="fas fa-tag"></i>
+                </span>
+                <span class="text">Pricing</span>
+            </div>
+            <div class="nav-item-top" data-section="shop">
+                <span class="icon">
+                    <i class="fas fa-store"></i>
+                </span>
+                <span class="text">Products</span>
+            </div>
+            <div class="nav-item-top" data-section="book">
+                <span class="icon">
+                    <i class="fas fa-calendar"></i>
+                </span>
+                <span class="text">Book</span>
+            </div>
+            <div class="nav-indicator-top"></div>
+        </div>
+    </nav>
+    
+    <!-- Mobile Bottom Navigation (visible on mobile only) -->
+    <nav class="mobile-bottom-nav" aria-label="Primary">
+        <button class="mb-nav-item active" data-section="home" aria-label="Home">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </button>
+        <button class="mb-nav-item" data-section="services" aria-label="Services">
+            <i class="fas fa-tools"></i>
+            <span>Services</span>
+        </button>
+        <button class="mb-nav-item" data-section="pricing" aria-label="Pricing">
+            <i class="fas fa-tag"></i>
+            <span>Pricing</span>
+        </button>
+        <button class="mb-nav-item" data-section="shop" aria-label="Products">
+            <i class="fas fa-store"></i>
+            <span>Products</span>
+        </button>
+        <button class="mb-nav-item" data-section="book" aria-label="Book">
+            <i class="fas fa-calendar"></i>
+            <span>Book</span>
+        </button>
+        <span class="mb-nav-indicator" aria-hidden="true"></span>
+    </nav>
+    
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="diagonal-split">
+                <div class="hero-content">
+                    <div class="title-container">
+                        <div class="console-icons">
+                            <div class="console-left">
+                                <img src="assets/images/brand/ps5.png" alt="PlayStation 5" class="console-image">
+                            </div>
+                            <h1 class="main-title">
+                                <span class="title-the">The</span>
+                                <span class="title-game">Game</span>
+                                <span class="title-fixer">Fixer</span>
+                            </h1>
+                            <div class="console-right">
+                                <img src="assets/images/brand/xbox.png" alt="Xbox" class="console-image xbox-image">
+                            </div>
+                        </div>
+                        <div class="hero-buttons">
+                            <button class="btn btn-primary" onclick="scrollToSection('book')">
+                                <i class="fas fa-wrench"></i> Book Repair
+                            </button>
+                            <button class="btn btn-secondary" onclick="scrollToSection('services')">
+                                <i class="fas fa-info-circle"></i> Our Services
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Advertising Section -->
+        <section class="ads-section">
+            <div class="container">
+                <div class="ads-carousel">
+                    <div class="ads-container">
+                        <div class="ad-slide active" data-ad="1">
+                            <img src="assets/images/ads/ad1.jpg" alt="Gaming Controller Repair Service" />
+                        </div>
+                        <div class="ad-slide" data-ad="2">
+                            <img src="assets/images/ads/ad2.jpg" alt="Console Repair Specialists" />
+                        </div>
+                        <div class="ad-slide" data-ad="3">
+                            <img src="assets/images/ads/ad3.jpg" alt="Professional Gaming Hardware Service" />
+                        </div>
+                        <div class="ad-slide" data-ad="4">
+                            <img src="assets/images/ads/ad4.jpg" alt="Expert Gaming Device Repairs" />
+                        </div>
+                        <div class="ad-slide" data-ad="5">
+                            <img src="assets/images/ads/ad5.jpg" alt="Premium Gaming Equipment Service" />
+                        </div>
+                    </div>
+                    <div class="ad-slide" data-ad="6">
+                        <img src="assets/images/ads/ad6.jpg" alt="Premium Gaming Equipment Service" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-xbox"></i>
+                        </div>
+                        <h3>Xbox Repairs</h3>
+                        <p>Stick drift, button issues, charging problems, and more. We fix all Xbox controller generations.</p>
+                        <ul class="service-features">
+                            <li>Analog stick replacement</li>
+                            <li>Button repair/replacement</li>
+                            <li>Charging port fixes</li>
+                            <li>Trigger mechanism repair</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fab fa-playstation"></i>
+                        </div>
+                        <h3>PlayStation  Repairs</h3>
+                        <p>DualShock and DualSense controller repairs with genuine parts and expert craftsmanship.</p>
+                        <ul class="service-features">
+                            <li>Haptic feedback repair</li>
+                            <li>Adaptive trigger fixes</li>
+                            <li>Battery replacement</li>
+                            <li>Shell replacement</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>General Electronics Repair</h3>
+                        <p>Comprehensive repair services for all types of gaming and electronic devices. Professional diagnostics and solutions.</p>
+                        <ul class="service-features">
+                            <li>Gaming hardware repairs</li>
+                            <li>Electronic device diagnostics</li>
+                            <li>Component replacement</li>
+                            <li>Performance optimization</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section id="pricing" class="pricing-section">
+            <div class="container">
+                <h2 class="section-title">Transparent Pricing</h2>
+                
+                <!-- Main Services -->
+                <div class="pricing-grid">
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Diagnostic</h3>
+                            <div class="price">R200-R300</div>
+                            <div class="price-period">One-time fee</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Complete device inspection</li>
+                            <li>Detailed repair quote</li>
+                            <li>No obligation to proceed</li>
+                            <li>Expert recommendations</li>
+                        </ul>
+                        <div class="pricing-card-footer">
+                            <a href="#book" class="btn btn-secondary">Get Free Quote</a>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-card featured">
+                        <div class="pricing-header">
+                            <h3>Console Repairs</h3>
+                            <div class="price">R250-R2600</div>
+                            <div class="price-period">Depends on repair</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Software Reload: R300</li>
+                            <li>Full Service: R700</li>
+                            <li>HDMI Port: R1800-R2200</li>
+                            <li>HDD Upgrade: R1800-R2500</li>
+                            <li>Power Supply: R2000-R3000</li>
+                        </ul>
+                        <div class="pricing-card-footer">
+                            <p class="price-disclaimer">Prices vary by model and brand</p>
+                            <a href="#book" class="btn btn-primary">Book Repair</a>
+                        </div>
+                    </div>
+                    
+                    <div class="pricing-card">
+                        <div class="pricing-header">
+                            <h3>Controller Repairs</h3>
+                            <div class="price">R80-R400</div>
+                        </div>
+                        <ul class="pricing-features">
+                            <li>Analog Cap: R80</li>
+                            <li>Standard Repairs: R250</li>
+                            <li>Analog Stick: R300</li>
+                            <li>Charging Port: R350</li>
+                            <li>Complete Analog: R400</li>
+                        </ul>
+                        <div class="pricing-card-footer">
+                            <p class="price-disclaimer">Prices vary by model and brand</p>
+                            <a href="#book" class="btn btn-secondary">Book Repair</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="pricing-note">
+                    <p><strong>Note:</strong> All prices are in South African Rand (ZAR). Final pricing may vary based on device condition and parts availability. We always provide a detailed quote before starting any work All repair included a full service </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- For Sale / Shop Section -->
+        <section id="shop" class="shop-section">
+            <div class="container">
+                <h2 class="section-title">Our Products</h2>
+                <div class="shop-grid">
+                    <!-- Product 1 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/products/ForSale4.jpg" alt="PS5 DualSense Controller Stand" />
+                        </div>
+                        <div class="product-info">
+                            <h3>PS5 DualSense Controller Stand</h3>
+                            <p class="product-note">Precision‑fit stand for DualSense controllers — stable, scratch‑safe display and storage.</p>
+                            <a href="#book" class="btn btn-primary"><i class="fas fa-info-circle"></i> Request Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 2 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/products/ForSale6.jpg" alt="Custom PS5/Xbox Game Holders" />
+                        </div>
+                        <div class="product-info">
+                            <h3>Custom PS5/Xbox Game Holders</h3>
+                            <p class="product-note">Wall or desk‑mounted disc racks — custom sizes and colours for clean, modular organization.</p>
+                            <a href="#book" class="btn btn-primary"><i class="fas fa-info-circle"></i> Request Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 3 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/products/ForSale3.jpg" alt="PS4 DualShock 4 Controller Stand" />
+                        </div>
+                        <div class="product-info">
+                            <h3>PS4 DualShock 4 Controller Stand</h3>
+                            <p class="product-note">Form‑fitting stand for DualShock 4 — keeps your setup organised and controllers protected.</p>
+                            <a href="#book" class="btn btn-primary"><i class="fas fa-info-circle"></i> Request Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 4 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/products/ForSale7.png" alt="Xbox Series X|S Console Stand" />                          
+                        </div>
+                        <div class="product-info">
+                            <h3>Xbox Series X|S Console Stand</h3>
+                            <p class="product-note">Ventilation‑friendly, non‑slip base for added stability and improved airflow.</p>
+                            <a href="#book" class="btn btn-primary"><i class="fas fa-info-circle"></i> Request Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 5 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/products/ForSale5.jpg" alt="Xbox Controller Stand" />
+                        </div>
+                        <div class="product-info">
+                            <h3>Xbox Controller Stand</h3>
+                            <p class="product-note">Universal stand for Xbox controllers — neat, space‑efficient storage with a secure fit.</p>
+                            <a href="#book" class="btn btn-primary"><i class="fas fa-info-circle"></i> Request Details</a>
+                        </div>
+                    </article>
+
+                    <!-- Product 6 -->
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img src="assets/images/products/ForSale8.png" alt="Xbox One Controller Stand" />
+                        </div>
+                        <div class="product-info">
+                            <h3>Xbox One Controller Stand</h3>
+                            <p class="product-note">Precisely contoured stand for Xbox One controllers — stable, scratch‑safe display.</p>
+                            <a href="#book" class="btn btn-primary"><i class="fas fa-info-circle"></i> Request Details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Book Repair Section -->
+        <section id="book" class="book-section">
+            <div class="container">
+                <h2 class="section-title">Book a Repair</h2>
+                <div class="booking-content">
+                    <div class="left-section">
+                        <div class="map-container">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3647.123456789!2d27.12345!3d-25.67890!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s163A%20Kruger%20St%2C%20Rustenburg%2C%200299!5e0!3m2!1sen!2sza!4v1234567890"
+                                allowfullscreen="" 
+                                loading="lazy"
+                                title="The Game Fixer Location">
+                            </iframe>
+                        </div>
+                        <div class="left-actions">
+                            <a href="tel:+27725538983" class="btn btn-primary btn-large">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                            <a href="https://www.google.com/maps/dir//163A+Kruger+St,+Rustenburg,+0299" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-large">
+                                <i class="fas fa-directions"></i> Get Directions
+                            </a>
+                        </div>
+                    </div>
+                    <div class="booking-form">
+                        <h3>Repair Request Form</h3>
+                        <form id="repairForm">
+                            <div class="form-group">
+                                <label for="deviceType">Device Type</label>
+                                <input type="text" id="deviceType" name="deviceType" placeholder="e.g., Xbox Controller, PlayStation Controller, Gaming Keyboard..." required>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="issueDescription">Issue Description</label>
+                                <textarea id="issueDescription" name="issueDescription" rows="4" placeholder="Describe the problem with your device..." required></textarea>
+                            </div>
+                            
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="customerName">Your Name</label>
+                                    <input type="text" id="customerName" name="customerName" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="customerPhone">Phone Number</label>
+                                    <input type="tel" id="customerPhone" name="customerPhone" required>
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="customerEmail">Email Address</label>
+                                <input type="email" id="customerEmail" name="customerEmail" required>
+                            </div>
+                            
+                            <div class="action-buttons">
+                                <button type="submit" class="btn btn-primary btn-large">
+                                    <i class="fas fa-calendar-check"></i> Submit Repair Request
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>The Game Fixer</h3>
+                    <p>Professional gaming hardware repairs with expert technicians and quality parts.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> 075 209 5842</p>
+                    <p><i class="fas fa-envelope"></i> thegamefixerrtb@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> 163A Kruger St, Rustenburg, 0299</p>
+                    <p><i class="fas fa-map"></i> <a href="https://maps.app.goo.gl/EEZS64jjGGpboFYr9" target="_blank" rel="noopener noreferrer" class="maps-link">View on Google Maps</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 The Game Fixer. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+    
+    <!-- Emergency loading screen removal -->
+    <script>
+        // Fallback to remove loading screen if main script fails
+        setTimeout(() => {
+            const loadingScreen = document.getElementById('loadingScreen');
+            if (loadingScreen) {
+                console.log('🚨 Emergency loading screen removal activated');
+                loadingScreen.style.display = 'none';
+            }
+        }, 3000); // Remove after 3 seconds maximum
+    </script>
+</body>
+</html>
