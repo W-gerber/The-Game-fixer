@@ -1,43 +1,53 @@
-🎮 The Game Fixer
+<h1 align="center">🎮 The Game Fixer</h1>
+<p align="center"><i>A sleek, modern website built for The Game Fixer business.</i></p>
 
-A sleek website made for The Game Fixer business.
+---
 
-This is a showcase of the website I built for my friend’s business, The Game Fixer, a service dedicated to helping gamers troubleshoot and fix issues with their games. The website highlights the business’s services, provides an intuitive interface for users, and reflects a modern, professional web design.
+<h2>🌟 Project Overview</h2>
 
-🌟 Project Overview
+<p>
+The goal of this project was to create a <b>responsive, engaging, and visually appealing website</b> 
+that effectively represents <b>The Game Fixer</b> brand.
+</p>
 
-The goal of this project was to create a responsive, engaging, and visually appealing website that would showcase The Game Fixer’s services while providing a smooth experience for visitors.
+<h3>🔑 Key Highlights</h3>
 
-Key highlights of the project:
+<ul>
+  <li><b>Modern UI Design</b> → Clean, user-friendly interface with attention to detail</li>
+  <li><b>Responsive Layout</b> → Optimized for desktop, tablet, and mobile devices</li>
+  <li><b>Showcase of Services</b> → Clear, structured sections to highlight offerings</li>
+  <li><b>Interactive Elements</b> → Smooth scrolling, animations, and hover effects</li>
+  <li><b>Fast & Lightweight</b> → Performance-focused with quick loading times</li>
+</ul>
 
-Modern UI Design: Clean, user-friendly interface with attention to detail.
+---
 
-Responsive Layout: Works perfectly on desktop, tablet, and mobile devices.
+<h2>🎨 Technologies & Tools Used</h2>
 
-Showcase of Services: Clear sections to display business offerings and information.
+<ul>
+  <li><b>Frontend:</b> React, TypeScript, Tailwind CSS, HTML, CSS, JavaScript</li>
+  <li><b>Deployment:</b> Vercel</li>
+  <li><b>Design:</b> Figma & Custom UI components</li>
+</ul>
 
-Interactive Elements: Smooth scrolling, animations, and hover effects for a dynamic feel.
+---
 
-Fast and Lightweight: Optimized for performance and quick loading.
+<h2>🌐 Live Demo</h2>
 
-🎨 Technologies & Tools Used
+<p>
+👉 <a href="#" target="_blank"><b>Visit The Game Fixer Website</b></a>
+</p>
 
-Frontend: React, TypeScript, Tailwind CSS, HTML, CSS, JavaScript
+---
 
-Deployment: Vercel
+<h2>📖 About This Project</h2>
 
-Design: Figma / Custom UI components
-
-🌐 Live Demo
-
-👉 Visit the live site here: The Game Fixer Website
-
-📖 About This Project
-
+<p>
 This project represents:
+</p>
 
-A real-world client project built to professional standards.
-
-My ability to transform business needs into digital solutions.
-
-A showcase of my frontend development, design, and deployment skills.
+<ul>
+  <li>A <b>real-world client project</b> built to professional standards</li>
+  <li>My ability to <b>transform business needs into digital solutions</b></li>
+  <li>A <b>showcase of frontend development, design, and deployment skills</b></li>
+</ul>
